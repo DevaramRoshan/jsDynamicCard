@@ -19,6 +19,7 @@ function createCard(title, price, description, category, url, rate, count,) {
     const pricing = document.createElement("div");
 
     image.setAttribute("src", `${url}`);
+    image.setAttribute("alt", `product image`);
     image.style = `
     height:250px;
     width:250px;
